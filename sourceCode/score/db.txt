@@ -1,0 +1,11 @@
+sql과 연결 사용 db name : score;
+
+ 
+
+ 
+
+create table score(name varchar(10), snum varchar(10), com int, kor int, eng int, math int, sum int, avg int);
+
+// table 생성
+
+ 
