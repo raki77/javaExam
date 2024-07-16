@@ -1,0 +1,26 @@
+/* profeel 2006 */
+package foo;
+
+public class Dog
+{
+
+	private String name;
+	private Dog dog;
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setDog(Dog dog) {
+		this.dog = dog;
+	}
+
+	public Dog getDog() {
+		return dog;
+	}
+
+}

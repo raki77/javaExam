@@ -1,0 +1,19 @@
+
+<HTML>
+
+<HEAD>
+
+ <TITLE> JSP Document </TITLE>
+
+</HEAD>
+
+<BODY>
+		${person} 's dog ${person.dog.name} 's toys are : ${person.dog.toy[0].name} <BR>
+		${person.name.toy[1].name} , and a ${person.name.toy[0]}
+
+</BODY>
+
+</HTML>
+
+ 
+

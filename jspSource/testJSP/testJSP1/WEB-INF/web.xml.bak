@@ -1,0 +1,85 @@
+
+<web-app xmlns ="http://java.sun.com/xml/ns/j2ee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+web-app_2_4.xsd"
+version="2.4">
+
+<servlet>
+	<servlet-name> BasicCounter </servlet-name>
+	<servlet-class> foo.Counter </servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name> hobbyTest </servlet-name>
+	<servlet-class> jspTest </servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name> TestJSP Person </servlet-name>
+	<servlet-class> TestJspPerson </servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name> TestJSP1 </servlet-name>
+	<servlet-class> TestJspPerson1 </servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name> TestJSP2 </servlet-name>
+	<servlet-class> TestJspPerson2 </servlet-class>
+</servlet>
+
+
+
+
+
+
+<servlet-mapping>
+	<servlet-name> BasicCounter </servlet-name>
+	<url-pattern> /BasicCounter.do </url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name> hobbyTest </servlet-name>
+	<url-pattern> /HobbyPage.do </url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name> TestJSP Person </servlet-name>
+	<url-pattern> /TesterPerson.do </url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name> TestJSP1 </servlet-name>
+	<url-pattern> /TestJsp1.do </url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name> TestJSP2 </servlet-name>
+	<url-pattern> /TestJsp2.do </url-pattern>
+</servlet-mapping>
+
+
+<context-param>
+	<param-name> url </param-name>
+	<param-value> /result.jsp </param-value>
+</context-param>
+
+
+
+</web-app>
+
+
+
+
+<!--
+<jsp-config>
+	<jsp-property-group>
+		<url-pattern> *.jsp </url-pattern>
+		<scripting-invalid>
+			true
+		</scripting-invalid>
+	</jsp-property-group>
+</jsp-config>
+-->

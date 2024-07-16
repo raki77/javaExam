@@ -1,0 +1,16 @@
+package foo;
+
+public abstract class MyPerson
+{
+	private String name;
+
+	public void setHello(String name) {
+		this.name = name;
+	}
+
+	public String getHello() {
+		return name;
+	}
+
+}
+

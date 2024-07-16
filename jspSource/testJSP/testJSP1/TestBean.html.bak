@@ -1,0 +1,25 @@
+
+<HTML>
+
+<HEAD>
+
+ <TITLE> JSP Document </TITLE>
+
+</HEAD>
+
+<BODY>
+
+<FORM METHOD=GET ACTION="TestBean.jsp">
+
+	name : <input type="text" name="username"> <BR>
+	ID#:   &nbsp;&nbsp;<input type="text" name="userID"><BR>
+	<input type="submit" value="JSP click">	
+
+</FORM>
+	
+</BODY>
+
+</HTML>
+
+
+ 

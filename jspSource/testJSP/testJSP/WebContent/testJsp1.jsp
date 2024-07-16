@@ -1,0 +1,27 @@
+
+<HTML>
+
+<HEAD>
+
+ <TITLE> JSP Document </TITLE>
+
+</HEAD>
+
+<BODY>
+	
+		Music is : ${musicList} <br>
+		Music is : ${musicList[0]} <br>
+		Music is : ${musicList["1"]} <br>
+		Music is : ${musicList[4]} <br>
+	
+		Favorite Food is : ${favoriteFood[0]} <BR>
+		
+		Favorite Music is : ${musicMap["Ambient"]} <BR>
+		Favorite Music is : ${musicMap.Ambient} <BR>	
+
+</BODY>
+
+</HTML>
+
+ 
+

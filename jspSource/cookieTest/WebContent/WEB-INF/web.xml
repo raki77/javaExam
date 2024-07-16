@@ -1,0 +1,33 @@
+
+<web-app xmlns ="http://java.sun.com/xml/ns/j2ee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+web-app_2_4.xsd"
+version="2.4">
+
+	
+
+	<servlet>
+		<servlet-name>cookieTest</servlet-name>
+		<servlet-class>CookieTest</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>check</servlet-name>
+		<servlet-class>CheckCookie</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>cookieTest</servlet-name>
+		<url-pattern> /cookietest.do</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>check</servlet-name>
+		<url-pattern> /cookiecheck.do</url-pattern>
+	</servlet-mapping>
+
+	
+
+</web-app>

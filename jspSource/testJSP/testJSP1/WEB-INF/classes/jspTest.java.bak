@@ -1,0 +1,44 @@
+/* profeel 2006 */
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import java.util.*;
+import java.io.*;
+
+public class jspTest extends HttpServlet
+{
+	public void doPost(HttpServletRequest request , HttpServletResponse response)
+			throws IOException, ServletException {
+		
+		response.setContentType("text/html");
+
+		String hobby = request.getParameter("hobby");
+
+		ArrayList list = new ArrayList();
+
+		if(hobby.equals("horse skiing")) {
+			list.add("a horse");
+			list.add("a2 horse");
+
+		}else if(hobby.equals("extreme knitting")) {
+			list.add("b knit");
+			list.add("b2 knit");
+			list.add("b3 knit");
+
+		}else if(hobby.equals("alpine scuba")) {
+			list.add("c scuba");
+			list.add("c2 scuba");
+
+		}else if(hobby.equals("speed dating")) {
+			list.add("d speed dating");
+		}					
+		
+		request.setAttribute("names", list);		
+		
+		String urlName = getServletContext().getParameter("url");
+
+		RequestDispatcher view = request.getRequestDispatcher(urlName);
+		view.forward(request, response);
+		
+	}
+}

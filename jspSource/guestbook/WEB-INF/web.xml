@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+             http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+  <display-name>guestbook example</display-name>
+  <description>
+     guestbook example form madvirus...
+  </description>
+
+  <resource-ref>
+      <description>DB Connection</description>
+      <res-ref-name>jdbc/guestbook</res-ref-name>
+      <res-type>javax.sql.DataSource</res-type>
+      <res-auth>Container</res-auth>
+  </resource-ref>
+
+<!--
+  <servlet>
+     <servlet-name>DBCPInit</servlet-name>
+     <servlet-class>madvirus.jdbcdriver.DBCPInit</servlet-class>
+     <load-on-startup>1</load-on-startup>
+     <init-param>
+        <param-name>jdbcdriver</param-name>
+        <param-value>com.mysql.jdbc.Driver</param-value>
+     </init-param>
+  </servlet>
+-->
+
+</web-app>

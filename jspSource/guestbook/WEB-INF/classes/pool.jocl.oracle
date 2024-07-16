@@ -1,0 +1,33 @@
+<object class="org.apache.commons.dbcp.PoolableConnectionFactory"
+    xmlns="http://apache.org/xml/xmlns/jakarta/commons/jocl">
+
+  <object class="org.apache.commons.dbcp.DriverManagerConnectionFactory">
+    <string value="jdbc:oracle:thin:@172.16.1.23:1521:CVSID1" />
+    <string value="scott" />
+    <string value="tiger" />
+  </object>
+  
+  <object class="org.apache.commons.pool.impl.GenericObjectPool">
+    <object class="org.apache.commons.pool.PoolableObjectFactory" null="true" />
+    <int value="10" />
+    <byte value="1" />
+    <long value="10000" />
+    <int value="10" />
+    <int value="3" />
+    <boolean value="true" />
+    <boolean value="true" />
+    <long value="600000" />
+    <int value="5" />
+    <long value="3600000" />
+    <boolean value="true" />
+  </object>
+  
+  <object class="org.apache.commons.pool.impl.GenericKeyedObjectPoolFactory"
+      null="true" />
+  
+  <string null="true" />
+  
+  <boolean value="false" />
+  
+  <boolean value="true" />
+</object>
