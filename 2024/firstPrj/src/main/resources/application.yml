@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: firstPrj
+  datasource:
+    url: jdbc:mariadb://192.168.0.121:3306/prj01
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: 2718
+
+mybatis:
+  config-location: classpath:mybatis-config.xml
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.sejong.firstPrj.entity
