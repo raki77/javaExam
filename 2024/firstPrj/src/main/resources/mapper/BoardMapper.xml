@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sejong.firstPrj.dao.BoardMapper">
+
+    <select id="getAllBoardList" resultType="com.sejong.firstPrj.dto.Board">
+        SELECT
+            id
+            ,name
+            ,age
+            ,grade
+            ,job
+            ,point
+        FROM
+            Customer;
+    </select>
+
+</mapper>
