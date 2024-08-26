@@ -18,6 +18,13 @@ public class BoardService {
     }
 
     public List<Board> getAllBoardList() {
+<<<<<<< HEAD
+=======
+//        List result = boardMapper.getAllBoardList();
+//        for(int i=0; i < result.size(); i++) {
+//            System.out.print("result : " + ((Board) result.get(i)).getName() );
+//        }
+>>>>>>> 4fc6588c0ff5736c80c2de3ea9b04ca1bceec9aa
         return boardMapper.getAllBoardList();
     }
 
