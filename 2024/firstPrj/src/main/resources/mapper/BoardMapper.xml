@@ -3,21 +3,13 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.sejong.firstPrj.dao.BoardMapper">
-
     <select id="getAllBoardList" resultType="com.sejong.firstPrj.dto.Board">
-        SELECT
-            id
-            ,name
-            ,age
-            ,grade
-            ,job
-            ,point
+        SELECT image_id
+            , image_name
+            , file_path
+            , uploaded_at
         FROM
-            Customer;
-<<<<<<< HEAD
-
-=======
->>>>>>> 4fc6588c0ff5736c80c2de3ea9b04ca1bceec9aa
+            Images;
     </select>
 
 </mapper>

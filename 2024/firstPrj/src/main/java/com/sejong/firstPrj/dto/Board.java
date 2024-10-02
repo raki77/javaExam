@@ -2,7 +2,7 @@ package com.sejong.firstPrj.dto;
 
 import lombok.*;
 
-import java.time.LocalDateTime;
+import java.sql.Timestamp;
 
 @Getter
 @Setter
@@ -10,19 +10,8 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Builder
 public class Board {
-<<<<<<< HEAD
-    private long id;
-    private String name;
-    private int age;
-    private String grade;
-    private String job;
-    private long point;
-=======
-    public String id;
-    public String name;
-    public int age;
-    public String grade;
-    public String job;
-    public long point;
->>>>>>> 4fc6588c0ff5736c80c2de3ea9b04ca1bceec9aa
+    private Integer image_id;
+    private String image_name;
+    private String file_path;
+    private Timestamp uploaded_at;
 }

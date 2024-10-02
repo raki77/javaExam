@@ -1,12 +1,18 @@
 spring:
+  session:
+    store-type: jdbc
+    jdbc:
+      initialize-schema: always
   application:
     name: firstPrj
   datasource:
-    url: jdbc:mariadb://192.168.0.121:3306/prj01
-    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mysql://203.245.30.178:3307/cnn
+    driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: 2718
-
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
 mybatis:
   config-location: classpath:mybatis-config.xml
   mapper-locations: classpath:mapper/*.xml

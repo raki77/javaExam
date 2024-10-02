@@ -7,7 +7,9 @@ public class Test5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[][] arr1 = { 
+		
+		
+		int[][] arr1 = {				
 				{1,2},
 				{2,3,3},
 				{4,4,4,4,4}
@@ -93,8 +95,7 @@ public class Test5 {
 					System.out.println("max:" + max1);
 					System.out.println("avg:" + (total1/1.0/res.size()));
 				}				
-			}
-			
+			} 
 			
 			
 		}	
