@@ -77,21 +77,39 @@ public class Test6 {
 						System.out.println("생성된 계좌가 없습니다.");
 						break;
 					}
-					System.out.println("계좌번호:" + acc2.getAccNum());
-					System.out.println("계좌주:" + acc2.getAccName());
-					System.out.println("입금액:" + acc2.getBalance());
+					System.out.print("계좌번호:" + acc2.getAccNum());
+					System.out.print(", 계좌주:" + acc2.getAccName());
+					System.out.println(", 입금액:" + acc2.getBalance());
 					System.out.println("---------------------------");
 				}
 			}
-			else if(val.equals("3")) {
-				System.out.println("3.예금");
+			else if(val.equals("3")) {				
+				System.out.print("3.계좌번호:"); 
+				String num1 = scanner.nextLine();
+				System.out.print("3.예금액:");
+				String deposit1 = scanner.nextLine(); 
+				
+				Account[] result = ba.getAccount();				
+				for (int i=0 ; i < result.length; i++) {
+					if(result[i] == null) {
+						System.out.println("생성된 계좌가 없습니다.");
+						break;
+					}
+					else {
+						if( num1.equals(result[i].getAccNum())) {
+							Account tmp = result[i];
+							tmp.setBalance(Integer.parseInt(deposit1));
+							result[i] = tmp; 							
+							break;
+						}
+					}
+				}
 			}
 			else if(val.equals("4")) {
-				System.out.println("4.출금");				
+				System.out.println("4.출금은 패스~~~~~");				
 			}
 		}
-		System.out.println("exit");
-		
+		System.out.println("exit"); 
 		
 	}
 

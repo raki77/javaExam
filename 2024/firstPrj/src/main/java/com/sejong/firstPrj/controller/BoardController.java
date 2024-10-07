@@ -21,6 +21,10 @@ public class BoardController {
 
     @GetMapping("/list")
     public List<Board> findAll() {
+        List<Board> result = boardService.getAllBoardList();
+        for( Board b1 : result ) {
+            System.out.println(b1.toString());
+        }
         return boardService.getAllBoardList();
     }
 

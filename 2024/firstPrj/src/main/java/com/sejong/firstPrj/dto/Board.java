@@ -14,4 +14,14 @@ public class Board {
     private String image_name;
     private String file_path;
     private Timestamp uploaded_at;
+
+    @Override
+    public String toString() {
+        return "Board{" +
+                "image_id=" + image_id +
+                ", image_name='" + image_name + '\'' +
+                ", file_path='" + file_path + '\'' +
+                ", uploaded_at=" + uploaded_at +
+                '}';
+    }
 }
