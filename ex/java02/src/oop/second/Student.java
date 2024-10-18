@@ -1,3 +1,5 @@
+package oop.second;
+
 public class Student {
     private String name;
     private int grade;
@@ -9,6 +11,7 @@ public class Student {
     }
 
     public Student() {
+        this("web", 31);
     }
 
     public String getName() {
