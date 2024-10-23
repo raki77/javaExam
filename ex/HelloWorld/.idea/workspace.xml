@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c99c7291-4e06-4229-8059-52c26d36d309" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../java02/src/oop/first/ArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java02/src/oop/first/ArrayUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java02/src/oop/first/StudentCRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java02/src/oop/first/StudentTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java02/src/oop/first/StudentTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java02/src/oop/second/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java02/src/oop/second/ScanData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java02/src/oop/second/StudentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java02/src/oop/second/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java02/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java02/src/oop/second/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java02/src/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java02/src/oop/first/StudentTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2nVYLZ8vNhipZHvB5nl9JfplEjz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/shjung/javaExam/ex/HelloWorld&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="226dfa07-a5f0-4227-a0e5-58bb440b924d" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c99c7291-4e06-4229-8059-52c26d36d309" name="Changes" comment="" />
+      <created>1729059654332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729059654332</updated>
+      <workItem from="1729059656612" duration="38000" />
+      <workItem from="1729059711774" duration="46000" />
+      <workItem from="1729153370829" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
