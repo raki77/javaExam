@@ -1,16 +1,11 @@
 package ch18.obj2;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Vector;
-
-import oop.second.Menu;
 
 public class MemberObjInOut {
 
@@ -61,6 +56,7 @@ public class MemberObjInOut {
     				oos.writeObject(m); 
     				System.out.println(m);
     			}
+				oos.close();
                 System.out.println("회원 목록이 파일에 저장 되었습니다.");
 				System.out.println("종료 !!!");
                 System.exit(0);
