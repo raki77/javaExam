@@ -1,4 +1,4 @@
-package ch18.sec04;
+package ch18.obj1;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
