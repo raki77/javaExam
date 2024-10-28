@@ -1,4 +1,4 @@
-package ch18.obj1;
+package ch19.thread;
 
 class MyThread extends Thread {
     private String threadName;
