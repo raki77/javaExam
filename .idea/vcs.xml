@@ -2,5 +2,12 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/good_backup/myProject02" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/good_backup2/myProject02" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gs-uploading-files" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring04/myProject02" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring06/myProject02" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring07/myProject02" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring08/myProject02" vcs="Git" />
   </component>
 </project>
